@@ -2,18 +2,19 @@ import CoverArt from "./CoverArt";
 import SongTitle from "./SongTitle";
 import PlayControls from "./PlayControls";
 import VolumeControls from "./VolumeControls";
-import PlayListItem from "./PlayListItem";
-import CurrentlyPlaying from "./CurrentlyPlaying";
 
-export default function MusicPlayer() {
+export default function CurrentlyPlaying() {
   return (
-    <div className="mx-auto w-full max-w-xl p-6">
+    <div className="flex flex-col items-center gap-4">
       <CoverArt />
-      <SongTitle />
+
+      <div className="w-full max-w-[400px] text-left">
+        <SongTitle />
+      </div>
+
       <PlayControls />
+
       <VolumeControls />
-      <PlayListItem />
-      <CurrentlyPlaying />
     </div>
   );
 }
