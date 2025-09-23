@@ -14,7 +14,7 @@ export default function VolumeControls() {
           <Volume2 className="size-5" />
         </button>
 
-        <input type="range" className="w-92" />
+        <input type="range" className="w-95" />
       </div>
     </div>
   );
