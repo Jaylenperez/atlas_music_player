@@ -2,9 +2,9 @@ import { Rewind, Play, FastForward, Shuffle } from "lucide-react";
 
 export default function PlayControls() {
   return (
-    <div className="flex items-center justify-center gap-13">
+    <div className="flex items-center justify-center gap-4">
       {/* Speed */}
-      <button id="speedButton" class="font-bold text-black">
+      <button id="speedButton" className="font-bold text-black">
         1x
       </button>
 
@@ -15,7 +15,7 @@ export default function PlayControls() {
         title="Back"
         className="p-2 text-black"
       >
-        <Rewind className="size-5" />
+        <Rewind className="h-5 w-5" />
       </button>
 
       {/* Play (accent) */}
@@ -25,7 +25,7 @@ export default function PlayControls() {
         title="Play"
         className="rounded-md border border-black p-2 text-black"
       >
-        <Play className="size-6 fill-current text-black" />
+        <Play className="h-6 w-6" />
       </button>
 
       {/* Forward */}
@@ -35,7 +35,7 @@ export default function PlayControls() {
         title="Forward"
         className="p-2 text-black"
       >
-        <FastForward className="size-5" />
+        <FastForward className="h-5 w-5" />
       </button>
 
       {/* Shuffle */}
@@ -45,7 +45,7 @@ export default function PlayControls() {
         title="Shuffle"
         className="p-2 text-black"
       >
-        <Shuffle className="size-5" />
+        <Shuffle className="h-5 w-5" />
       </button>
     </div>
   );

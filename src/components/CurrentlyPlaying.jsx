@@ -10,11 +10,11 @@ export default function CurrentlyPlaying() {
       <MoonStar className="text-plum self-start" />
       <CoverArt />
 
-      <div className="w-full max-w-[400px] text-left">
+      <div className="-ml-44 w-full max-w-[400px] text-left">
         <SongTitle />
       </div>
 
-      <div className="text-plum">
+      <div className="text-plum -ml-4">
         <PlayControls />
       </div>
 
