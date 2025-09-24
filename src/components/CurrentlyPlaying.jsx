@@ -12,7 +12,9 @@ export default function CurrentlyPlaying() {
         <SongTitle />
       </div>
 
-      <PlayControls />
+      <div className="text-plum">
+        <PlayControls />
+      </div>
 
       <VolumeControls />
     </div>
