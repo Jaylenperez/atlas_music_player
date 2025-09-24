@@ -3,7 +3,7 @@ import MusicPlayer from "./MusicPlayer";
 
 function App() {
   return (
-    <div className="bg-xanthous flex h-full min-h-screen flex-col justify-between p-8">
+    <div className="flex h-full min-h-screen flex-col justify-between bg-amber-100 p-8">
       <MusicPlayer />
       <Footer />
     </div>

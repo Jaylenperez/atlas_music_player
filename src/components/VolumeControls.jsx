@@ -9,7 +9,7 @@ export default function VolumeControls() {
           type="button"
           aria-label="Volume"
           title="Volume"
-          className="p-2 text-black"
+          className="p-2 text-purple-900"
         >
           <Volume2 className="h-5 w-5" />
         </button>

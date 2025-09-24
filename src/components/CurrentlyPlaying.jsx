@@ -7,7 +7,7 @@ import { MoonStar, Sun } from "lucide-react";
 export default function CurrentlyPlaying() {
   return (
     <div className="flex flex-col items-center gap-4">
-      <MoonStar className="text-plum self-start" />
+      <MoonStar className="self-start text-purple-900" />
       <CoverArt />
 
       <div className="-ml-44 w-full max-w-[400px] text-left">
