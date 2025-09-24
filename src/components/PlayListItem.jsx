@@ -5,7 +5,7 @@ export default function PlayListItem() {
         <h1 className="text-plum font-sans text-lg font-bold">
           Electric Fever
         </h1>
-        <p className="text-grey font-sans text-base font-bold text-gray-500">
+        <p className="text-accent font-sans text-base font-bold text-gray-500">
           Neon Jungle
         </p>
       </div>
