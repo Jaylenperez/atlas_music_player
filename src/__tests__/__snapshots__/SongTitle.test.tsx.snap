@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SongTitle renders correctly 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <h2
+      class="text-left text-2xl font-bold text-amber-200"
+    />
+    <p
+      class="text-left text-lg text-gray-300"
+    />
+  </div>
+</div>
+`;
+
+exports[`SongTitle renders correctly with lightMode = false 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <h2
+      class="text-left text-2xl font-bold text-amber-200"
+    >
+      Another Song
+    </h2>
+    <p
+      class="text-left text-lg text-gray-300"
+    >
+      Another Artist
+    </p>
+  </div>
+</div>
+`;
+
+exports[`SongTitle renders correctly with lightMode = true 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <h2
+      class="text-left text-2xl font-bold text-indigo-950"
+    >
+      Song Title
+    </h2>
+    <p
+      class="text-left text-lg text-gray-500"
+    >
+      Artist Name
+    </p>
+  </div>
+</div>
+`;

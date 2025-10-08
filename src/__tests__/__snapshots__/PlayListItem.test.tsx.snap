@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PlayListItem renders correctly 1`] = `
+<div>
+  <div
+    class="flex items-center justify-between rounded-md border-b border-gray-900 px-4 py-2 hover:bg-indigo-900"
+  >
+    <div>
+      <h3
+        class="text-lg font-medium text-sky-400"
+      >
+        Song Title
+      </h3>
+      <p
+        class="text-sm text-fuchsia-500"
+      >
+        Artist Name
+      </p>
+    </div>
+    <span
+      class="text-sm text-fuchsia-300"
+    >
+      3:45
+    </span>
+  </div>
+</div>
+`;
